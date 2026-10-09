@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+myenv/
+venv/
+env/
+
+# Datasets & archives (too large for GitHub)
+carpet/
+harness_dataset/
+*.zip
+*.rar
+
+# Legacy model format (backbone_resnet.pth is 102 MB, over GitHub's limit)
+anomaly_model/
+
+# Models: ship carpet only
+models/*
+!models/carpet_model/
+models/carpet_model/training_history.pth
+
+# Scratch / superseded scripts
+app.py
+test.py
+torch_test.py
+testing_temp.py
+harness_aug_4.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

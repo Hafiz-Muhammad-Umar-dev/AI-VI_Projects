@@ -1,0 +1,13 @@
+# Anomaly Detection app (main.py) — ResNet50 feature extractor + FeatCAE autoencoder
+# Install:  pip install -r requirements.txt
+#
+# For CUDA builds of torch/torchvision, install them first from the PyTorch index, e.g.:
+#   pip install torch==2.2.0 torchvision==0.17.0 --index-url https://download.pytorch.org/whl/cu121
+
+streamlit>=1.31.0
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.3
+pillow>=10.2.0
+matplotlib>=3.8.2
+opencv-python>=4.9.0
